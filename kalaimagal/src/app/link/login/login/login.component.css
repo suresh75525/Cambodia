@@ -1,0 +1,9 @@
+.login-form
+{
+  padding: 20px;
+}
+::ng-deep .mat-raised-button
+{
+  height:20px;
+  width:20px;
+}

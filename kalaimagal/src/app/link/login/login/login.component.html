@@ -1,0 +1,27 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+   <!--
+      <mat-card fxFlex="30">
+      <mat-toolbar color="primary" >Login Page</mat-toolbar>
+      <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+        <mat-form-field >
+          <input matInput placeholder="Username">
+        </mat-form-field>
+  
+        <mat-form-field>
+          <input matInput type="password" placeholder="Password">
+        </mat-form-field>
+  
+        <button color="primary" mat-raised-button type="submit">Login</button>
+      </form>
+    </mat-card>
+   -->
+   <mbsc-form [options]="setting">
+    <mbsc-form-group>
+        <mbsc-form-group-title>User Data</mbsc-form-group-title>
+        <mbsc-input placeholder="First Name">First Name</mbsc-input>
+        <mbsc-input placeholder="Last Name">Last Name</mbsc-input>
+       
+    </mbsc-form-group>
+  
+</mbsc-form>
+</div>

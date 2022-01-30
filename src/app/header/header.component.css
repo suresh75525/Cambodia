@@ -1,0 +1,91 @@
+#img1
+{
+    width: 150%;
+    height: 70%;
+}
+
+#school
+{
+    padding-top: 1%;
+   font-size:xx-large;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #CCC;
+  
+}
+#email
+{
+    color: #DB4437;
+}
+#fb
+{
+    color: black;
+}
+.social
+{
+  padding-top: 4%;
+  margin-left: 4%;
+}
+.social i{
+   
+    font-size:25px;
+    color: black;
+    margin:5px 15px;
+    background-color:white;
+    height: 33px;
+    width:33px;
+    box-shadow: 3px 3px 10px #aeaeae,
+                -4px -4px 10px white;
+           
+}
+
+.social i:nth-child(1):hover
+{
+  color:#eee;
+  border-radius: 50%;
+  background-color:#3B5999;
+}
+#youtube:hover
+{
+    color:#eee;
+    border-radius: 50%;
+    background-color:#DE463B; 
+}
+#twitter:hover
+{
+    color:#eee;
+    border-radius: 50%;
+    background-color:#46C1F6; 
+}
+#instagram:hover
+{
+    color:#eee;
+    border-radius: 50%;
+    background-color:#e1306c; 
+}
+ #fb
+{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+#twitter
+{
+    padding-left: 3%;
+    padding-top: 3%;
+}
+#instagram
+{
+    padding-left: 4%;
+    padding-top: 3%;
+}
+#youtube
+{
+    padding-top: 3%;
+    padding-left: 3%;
+}
+@media (max-width:500px)
+{
+  #img2
+  {
+      display: none;
+  }
+}

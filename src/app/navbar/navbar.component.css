@@ -1,0 +1,33 @@
+#navbar
+{
+    position: sticky;
+    top:0;
+   
+    z-index: 100;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color:black;
+}
+mat-icon
+{
+    color:white;
+}
+#navbarNav .nav-link
+{
+  color: white;
+
+}
+
+#navbarNav a:hover
+{
+    /*border-bottom: 2px solid red;*/
+    background: linear-gradient(to right,#ffff00 0%,#ff3399 100%);
+    border-radius: 50px;
+}
+.dropdown:hover> .dropdown-menu
+{
+    display: block;
+}
+.navbar-toggler-icon
+{
+    color:greenyellow;
+}
